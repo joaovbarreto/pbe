@@ -18,12 +18,18 @@
 
 Página única, pensada para o celular, que reúne tudo o que foi recomendado na entrevista:
 
-- 📖 **Livros** de Prática Baseada em Evidências e terapias baseadas em evidências
+- 📖 **Livros** de Prática Baseada em Evidências, formulação de caso, protocolos clínicos e DBT
 - 🔬 **Fontes de evidência** (Cochrane Library, APA Division 12, OQ-Measures)
 - 👤 **Perfis** de profissionais para acompanhar
-- 🧭 Materiais do **Sevnia** (formulação de caso, eventos, supervisão e cartão)
+- 🧭 Telas da **SevnIA**, ferramenta de IA que o entrevistado desenvolve (formulação de caso, eventos, supervisão e cartão do paciente)
 
-Tem **modo escuro automático** (segue o tema do dispositivo) e carrega rápido: é só HTML e CSS, sem frameworks nem build.
+Tem **modo escuro automático** (segue o tema do dispositivo) e carrega rápido: é HTML e CSS, com algumas linhas de JavaScript só para ampliar as imagens. Sem frameworks nem build.
+
+## 🎓 Contexto
+
+Material de apoio da apresentação oral da disciplina **Estágio Básico I** do curso de Psicologia da Estácio Ribeirão Preto. O grupo entrevistou o psicólogo clínico João Paulo Eras Silva (CRP 06/186353) em 12/09/2026, e a turma acessa esta página por um QR code no fim da apresentação.
+
+O conteúdo foi publicado com autorização do entrevistado. O paciente que aparece nas telas da SevnIA é fictício, criado por ele para testes.
 
 ## 🌐 Acesse
 
@@ -33,8 +39,8 @@ Tem **modo escuro automático** (segue o tema do dispositivo) e carrega rápido:
 
 ```
 .
-├── index.html     # a página inteira (HTML + CSS)
-├── img/           # capas dos livros, foto e imagens do Sevnia
+├── index.html     # a página inteira (HTML, CSS e um script de zoom)
+├── img/           # capas dos livros, foto e telas da SevnIA
 ├── .nojekyll      # publica os arquivos como estão, sem Jekyll
 └── README.md
 ```
